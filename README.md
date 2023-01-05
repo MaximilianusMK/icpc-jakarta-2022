@@ -27,7 +27,7 @@ Each problem (from PA to PD for trial and A to M for contest) has their own fold
 In the problem folder, there should be exactly the following file/folder:
 
 - `description.pdf`. The problem statement distributed to the contestants during the contest.
-- `data/`. A folder consisting of all testcases. The sample inputs given in the problem statement will be in the form of `sample/inc-<slug>_sample_<testcase number>.in/ans`, while the hidden testcases will be in the form of `secret/inc-<slug>_1_<testcase number>.in/ans`.
+- `data/`. A folder consisting of all testcases. The sample inputs given in the problem statement will be in the form of `sample/icpc-<slug>_sample_<testcase number>.in/ans`, while the hidden testcases will be in the form of `secret/icpc-<slug>_1_<testcase number>.in/ans`.
 - `solution.cpp`. The official solution used to generate the outputs of the testcases
 - `scorer.cpp`. A validator used to validate contestants' output. The code accepts three arguments.
   - The first parameter will be used as the filename of the input file
