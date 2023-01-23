@@ -79,7 +79,7 @@ int main(int argc, char **argv) {
   bool case_sensitive         = false;
   bool space_change_sensitive = false;
   bool use_floats             = false;
-  double float_abs_tol        = -1;
+  double float_abs_tol        = 1e-6;
   double float_rel_tol        = -1;
 
   for (int a = 4; a < argc; ++a) {
